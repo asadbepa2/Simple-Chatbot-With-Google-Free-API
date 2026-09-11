@@ -1,6 +1,7 @@
 import os
 from google import genai
-api_key = os.environ.get('GEMINI_API_KEY', "AQ.Ab8RN6KFR6P***********************")
+#use your API Here
+api_key = os.environ.get('GEMINI_API_KEY', "AIzaSyDroMajudvkv29mPZGVYbw1bjyqmLbWHgk")
 
 try:
     client = genai.Client(api_key=api_key)
