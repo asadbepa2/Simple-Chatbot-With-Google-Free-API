@@ -9,7 +9,7 @@ from google.colab import userdata
 try:
     api_key = userdata.get('GEMINI_API_KEY')
 except Exception:
-    api_key = "AQ.Ab8RN6KFR6P24QA************************"
+    api_key = "AIzaSyDroMajudvkv29mPZGVYbw1bjyqmLbWHgk"
 
 try:
     # 2. Initialize the official client connection
